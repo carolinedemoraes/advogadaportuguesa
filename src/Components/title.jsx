@@ -6,7 +6,7 @@ function Title() {
   return (
     <>
       <div className="title-content">
-        <h1 className="title">CIDADANIA LUZITANA</h1>
+        <h1 className="title">CIDADANIA LUSITANA</h1>
         <h2 className="subtitle">ANDRÉIA SANT'ANNA</h2>
         <h2 className="undertitle">Advogada Brasileira e Portuguesa</h2>
         <h2 className="undertitle">

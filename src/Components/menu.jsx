@@ -1,18 +1,18 @@
 function Menu() {
   return (
     <>
-      <nav>
+      <nav className="menu">
         <ul className="menu">
-          <li>
+          <li className="menu">
             <a href="#minha-historia">Minha História</a>
           </li>
-          <li>
+          <li className="menu">
             <a href="#meus-servicos">Meus Serviços</a>
           </li>
-          <li>
+          <li className="menu">
             <a href="#vantagens">Vantagens da Cidadania Europeia</a>
           </li>
-          <li>
+          <li className="menu">
             <a href="#contato">Contato</a>
           </li>
         </ul>
