@@ -17,11 +17,11 @@ function App() {
   return (
     <>
       <div className="content">
-        <TextImg imgSrc={"/images/advogadapt.jpg"}>
+        <TextImg imgSrc={"images/advogadapt.jpg"}>
           <Menu />
           <Title />
         </TextImg>
-        <TextImg imgSrc={"/images/passaporte.jpg"} leftImg>
+        <TextImg imgSrc={"images/passaporte.jpg"} leftImg>
           <h1 className="label" id="minha-historia">
             Minha História
           </h1>
@@ -59,7 +59,7 @@ function App() {
           </p>
         </TextImg>
 
-        <TextImg imgSrc={"/images/direito.jpg"}>
+        <TextImg imgSrc={"images/direito.jpg"}>
           <h1 className="label" id="meus-servicos">
             Meus Serviços
           </h1>
@@ -98,7 +98,7 @@ function App() {
             </strong>
           </p>
         </TextImg>
-        <TextImg imgSrc={"/images/bandeirapt.jpg"} leftImg>
+        <TextImg imgSrc={"images/bandeirapt.jpg"} leftImg>
           <h1 className="label" id="vantagens">
             Vantagens de Ser Cidadão Europeu
           </h1>
@@ -167,7 +167,7 @@ function App() {
             </p>
           </ModalButton>
         </TextImg>
-        <TextImg imgSrc={"/images/portugal1.jpg"}>
+        <TextImg imgSrc={"images/portugal1.jpg"}>
           <h1 className="label" id="contato">
             Contato
           </h1>
