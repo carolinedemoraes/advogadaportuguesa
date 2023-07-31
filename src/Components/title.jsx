@@ -14,7 +14,7 @@ function Title() {
         </h2>
 
         <a
-          href="https://www.instagram.com/cidadanialuzitana/"
+          href="https://www.instagram.com/cidadanialusitana/"
           className="social-network"
         >
           <FaInstagram />

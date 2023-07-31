@@ -25,38 +25,33 @@ function App() {
           <h1 className="label" id="minha-historia">
             Minha História
           </h1>
-          <p className="text">
-            Olá! Meu nome é <strong>Andréia Amaral Sant'Anna</strong> e assim
-            como você, eu também busquei a minha nacionalidade portuguesa
-            através dos meus antepassados. Hoje, sou uma advogada brasileira e
-            portuguesa, formada, há mais de 20 anos, pela Universidade Federal
-            de Rio Grande (FURG) e tenho a felicidade de desfrutar de todos os
-            privilégios que um cidadão português tem no mundo.
-          </p>
-          <p className="text">
-            Compreendo a importância de ter uma segunda nacionalidade, não só
-            pelo acesso a benefícios e oportunidades, mas também pela conexão
-            com a história e cultura do país de origem. Por isso, estou
-            empenhada em ajudar aqueles que desejam obter a cidadania
-            portuguesa, seja por vínculos sanguíneos, casamento ou
-            naturalização.
-          </p>
-          <p className="text">
-            Além disso, também atuo na área de homologação de sentenças
-            estrangeiras, auxiliando aqueles que necessitam de reconhecimento
-            judicial de decisões tomadas em outros países. Ao longo da minha
-            jornada, aprendi que cada caso é único e que a obtenção da cidadania
-            portuguesa pode ser um processo complexo e demorado.
-          </p>
-          <p className="text">
-            <strong>
-              Por isso, estou aqui para auxiliar e orientar meus clientes em
-              todos os aspectos legais envolvidos, oferecendo um serviço
-              personalizado e eficiente. Para isso, estou sempre atualizada com
-              as leis e regulamentos em vigor, a fim de garantir que meus
-              clientes tenham o melhor resultado possível.
-            </strong>
-          </p>
+          <p className="text">Olá!</p>
+
+          <ModalButton>
+            <p className="modal-text">
+              Olá! Meu nome é Andréia Amaral Sant'Anna e assim como você, eu
+              também busquei a minha nacionalidade portuguesa através dos meus
+              antepassados. Hoje, sou uma advogada brasileira e portuguesa,
+              formada, há mais de 20 anos, pela Universidade Federal de Rio
+              Grande (FURG) e tenho a felicidade de desfrutar de todos os
+              privilégios que um cidadão português tem no mundo. Compreendo a
+              importância de ter uma segunda nacionalidade, não só pelo acesso a
+              benefícios e oportunidades, mas também pela conexão com a história
+              e cultura do país de origem. Por isso, estou empenhada em ajudar
+              aqueles que desejam obter a cidadania portuguesa, seja por
+              vínculos sanguíneos, casamento ou naturalização. Além disso,
+              também atuo na área de homologação de sentenças estrangeiras,
+              auxiliando aqueles que necessitam de reconhecimento judicial de
+              decisões tomadas em outros países. Ao longo da minha jornada,
+              aprendi que cada caso é único e que a obtenção da cidadania
+              portuguesa pode ser um processo complexo e demorado. Por isso,
+              estou aqui para auxiliar e orientar meus clientes em todos os
+              aspectos legais envolvidos, oferecendo um serviço personalizado e
+              eficiente. Para isso, estou sempre atualizada com as leis e
+              regulamentos em vigor, a fim de garantir que meus clientes tenham
+              o melhor resultado possível.
+            </p>
+          </ModalButton>
         </TextImg>
 
         <TextImg imgSrc={"images/direito.jpg"}>
@@ -64,40 +59,53 @@ function App() {
             Meus Serviços
           </h1>
           <p className="text2">
-            Ofereço serviços jurídicos especializados em{" "}
-            <strong>
-              aquisição da nacionalidade portuguesa em todos os níveis, ou seja,
-              por atribuição (filhos, netos e bisnetos de portugueses) ou por
+            Como advogada brasileira e portuguesa meu trabalho consiste na
+            aquisição da nacionalidade portuguesa em todos os níveis,
+            acompanhando cada caso particular com a maior atenção e dedicação.
+          </p>
+          <p className="text2">
+            Além da assessoria personalizada durante o processo de obtenção da
+            nacionalidade portuguesa, posso te ajudar em diversos assuntos
+            jurídicos relacionados a Portugal.
+          </p>
+
+          <ModalButton>
+            <p className="modal-text">
+              Ofereço serviços jurídicos especializados em aquisição da
+              nacionalidade portuguesa em todos os níveis, ou seja, por
+              atribuição (filhos, netos e bisnetos de portugueses) ou por
               aquisição, para inúmeros casos.
-            </strong>
-          </p>
-          <p className="text2">
-            São muitos os casos em que se pode adquirir a nacionalidade
-            portuguesa ou naturalizar-se português. Bem como, o trabalho de
-            homologações de sentença estrangeira nos tribunais portugueses. Com
-            a minha experiência e conhecimento em direito internacional,
-            aplicado ao caso, busco garantir que meus clientes tenham uma
-            experiência tranquila e segura durante todo o processo.
-          </p>
-          <p className="text2">
-            Meu trabalho consiste em oferecer uma assessoria personalizada,
-            desde a análise da documentação necessária até a finalização do
-            processo, com a aplicação direta, digital e instantânea, frente ao
-            Instituto de Registos e do Notariado (IRN) de Portugal. Prerrogativa
-            concedida aos advogados portugueses. Trabalho com um serviço ágil e
-            eficiente, sempre buscando a melhor solução para cada caso
-            específico.
-          </p>
-          <p className="text2">
-            <strong>
+            </p>
+
+            <p className="modal-text">
+              São muitos os casos em que se pode adquirir a nacionalidade
+              portuguesa ou naturalizar-se português. Bem como, o trabalho de
+              homologações de sentença estrangeira nos tribunais portugueses.
+              Com a minha experiência e conhecimento em direito internacional,
+              aplicado ao caso, busco garantir que meus clientes tenham uma
+              experiência tranquila e segura durante todo o processo.
+            </p>
+
+            <p className="modal-text">
+              Meu trabalho consiste em oferecer uma assessoria personalizada,
+              desde a análise da documentação necessária até a finalização do
+              processo, com a aplicação direta, digital e instantânea, frente ao
+              Instituto de Registos e do Notariado (IRN) de Portugal.
+              Prerrogativa concedida aos advogados portugueses. Trabalho com um
+              serviço ágil e eficiente, sempre buscando a melhor solução para
+              cada caso específico.
+            </p>
+
+            <p className="modal-text">
               Além disso, como advogada portuguesa e brasileira, tenho
               conhecimento sobre as particularidades de ambos os sistemas
               jurídicos, o que me permite prestar um serviço completo e
               integrado para aqueles que buscam adquirir a nacionalidade
               portuguesa ou homologar sentenças estrangeiras em Portugal.
-            </strong>
-          </p>
+            </p>
+          </ModalButton>
         </TextImg>
+
         <TextImg imgSrc={"images/bandeirapt.jpg"} leftImg>
           <h1 className="label" id="vantagens">
             Vantagens de Ser Cidadão Europeu
@@ -185,7 +193,7 @@ function App() {
             <strong>Entre em contato:</strong>
           </p>
           <a
-            href="https://www.instagram.com/cidadanialuzitana/"
+            href="https://www.instagram.com/cidadanialusitana/"
             className="social-network"
           >
             <FaInstagram />
