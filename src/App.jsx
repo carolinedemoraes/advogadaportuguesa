@@ -25,7 +25,19 @@ function App() {
           <h1 className="label" id="minha-historia">
             Minha História
           </h1>
-          <p className="text">Olá!</p>
+          <p className="text">
+            Olá! Meu nome é Andréia Amaral Sant'Anna e assim como você, eu
+            também busquei a minha nacionalidade portuguesa através dos meus
+            antepassados. Hoje, sou uma advogada brasileira e portuguesa,
+            formada, há mais de 20 anos, pela Universidade Federal de Rio Grande
+            (FURG) e tenho a felicidade de desfrutar de todos os privilégios que
+            um cidadão português tem no mundo.
+            <p className="text">
+              Compreendo a importância de ter uma segunda nacionalidade, não só
+              pelo acesso a benefícios e oportunidades, mas também pela conexão
+              com a história e cultura do país de origem.
+            </p>
+          </p>
 
           <ModalButton>
             <p className="modal-text">
@@ -34,22 +46,35 @@ function App() {
               antepassados. Hoje, sou uma advogada brasileira e portuguesa,
               formada, há mais de 20 anos, pela Universidade Federal de Rio
               Grande (FURG) e tenho a felicidade de desfrutar de todos os
-              privilégios que um cidadão português tem no mundo. Compreendo a
-              importância de ter uma segunda nacionalidade, não só pelo acesso a
-              benefícios e oportunidades, mas também pela conexão com a história
-              e cultura do país de origem. Por isso, estou empenhada em ajudar
-              aqueles que desejam obter a cidadania portuguesa, seja por
-              vínculos sanguíneos, casamento ou naturalização. Além disso,
-              também atuo na área de homologação de sentenças estrangeiras,
-              auxiliando aqueles que necessitam de reconhecimento judicial de
-              decisões tomadas em outros países. Ao longo da minha jornada,
-              aprendi que cada caso é único e que a obtenção da cidadania
-              portuguesa pode ser um processo complexo e demorado. Por isso,
-              estou aqui para auxiliar e orientar meus clientes em todos os
-              aspectos legais envolvidos, oferecendo um serviço personalizado e
-              eficiente. Para isso, estou sempre atualizada com as leis e
-              regulamentos em vigor, a fim de garantir que meus clientes tenham
-              o melhor resultado possível.
+              privilégios que um cidadão português tem no mundo.
+            </p>
+
+            <p className="modal-text">
+              Compreendo a importância de ter uma segunda nacionalidade, não só
+              pelo acesso a benefícios e oportunidades, mas também pela conexão
+              com a história e cultura do país de origem.
+            </p>
+
+            <p className="modal-text">
+              Por isso, estou empenhada em ajudar aqueles que desejam obter a
+              cidadania portuguesa, seja por vínculos sanguíneos, casamento ou
+              naturalização.{" "}
+            </p>
+
+            <p className="modal-text">
+              Além disso, também atuo na área de homologação de sentenças
+              estrangeiras, auxiliando aqueles que necessitam de reconhecimento
+              judicial de decisões tomadas em outros países. Ao longo da minha
+              jornada, aprendi que cada caso é único e que a obtenção da
+              cidadania portuguesa pode ser um processo complexo e demorado.{" "}
+            </p>
+
+            <p className="modal-text">
+              Por isso, estou aqui para auxiliar e orientar meus clientes em
+              todos os aspectos legais envolvidos, oferecendo um serviço
+              personalizado e eficiente. Para isso, estou sempre atualizada com
+              as leis e regulamentos em vigor, a fim de garantir que meus
+              clientes tenham o melhor resultado possível.
             </p>
           </ModalButton>
         </TextImg>
@@ -59,8 +84,8 @@ function App() {
             Meus Serviços
           </h1>
           <p className="text2">
-            Como advogada brasileira e portuguesa meu trabalho consiste na
-            aquisição da nacionalidade portuguesa em todos os níveis,
+            Como advogada brasileira e portuguesa meu trabalho consiste em te
+            ajudar na aquisição da nacionalidade portuguesa em todos os níveis,
             acompanhando cada caso particular com a maior atenção e dedicação.
           </p>
           <p className="text2">
@@ -74,16 +99,16 @@ function App() {
               Ofereço serviços jurídicos especializados em aquisição da
               nacionalidade portuguesa em todos os níveis, ou seja, por
               atribuição (filhos, netos e bisnetos de portugueses) ou por
-              aquisição, para inúmeros casos.
+              aquisição, para inúmeros casos. São muitos os casos em que se pode
+              adquirir a nacionalidade portuguesa ou naturalizar-se português.
             </p>
 
             <p className="modal-text">
-              São muitos os casos em que se pode adquirir a nacionalidade
-              portuguesa ou naturalizar-se português. Bem como, o trabalho de
-              homologações de sentença estrangeira nos tribunais portugueses.
-              Com a minha experiência e conhecimento em direito internacional,
-              aplicado ao caso, busco garantir que meus clientes tenham uma
-              experiência tranquila e segura durante todo o processo.
+              Bem como, o trabalho de homologações de sentença estrangeira nos
+              tribunais portugueses. Com a minha experiência e conhecimento em
+              direito internacional, aplicado ao caso, busco garantir que meus
+              clientes tenham uma experiência tranquila e segura durante todo o
+              processo.
             </p>
 
             <p className="modal-text">
@@ -106,7 +131,7 @@ function App() {
           </ModalButton>
         </TextImg>
 
-        <TextImg imgSrc={"images/bandeirapt.jpg"} leftImg>
+        <TextImg imgSrc={"images/portugal1.jpg"} leftImg>
           <h1 className="label" id="vantagens">
             Vantagens de Ser Cidadão Europeu
           </h1>
@@ -175,7 +200,7 @@ function App() {
             </p>
           </ModalButton>
         </TextImg>
-        <TextImg imgSrc={"images/portugal1.jpg"}>
+        <TextImg imgSrc={"images/bandeirapt.jpg"}>
           <h1 className="label" id="contato">
             Contato
           </h1>
