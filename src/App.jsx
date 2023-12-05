@@ -4,11 +4,14 @@ import menu from "../src/Components/menu";
 import Title from "./Components/title";
 import TextImg from "./Components/textimg";
 import Menu from "../src/Components/menu";
-import Modal from "./Components/modal";
+import Modal from "./Components/closemodal";
 
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
+
 import ModalButton from "./Components/modal-button";
 
 function App() {
@@ -21,6 +24,7 @@ function App() {
           <Menu />
           <Title />
         </TextImg>
+
         <TextImg imgSrc={"images/passaporte.jpg"} leftImg>
           <h1 className="label" id="minha-historia">
             Minha História
@@ -29,54 +33,22 @@ function App() {
             Olá! Meu nome é Andréia Amaral Sant'Anna e assim como você, eu
             também busquei a minha nacionalidade portuguesa através dos meus
             antepassados. Hoje, sou uma advogada brasileira e portuguesa,
-            formada, há mais de 20 anos, pela Universidade Federal de Rio Grande
-            (FURG) e tenho a felicidade de desfrutar de todos os privilégios que
-            um cidadão português tem no mundo.
-            <p className="text">
-              Compreendo a importância de ter uma segunda nacionalidade, não só
-              pelo acesso a benefícios e oportunidades, mas também pela conexão
-              com a história e cultura do país de origem.
-            </p>
+            inscrita na ordem dos Advogados Brasileiros e na Ordem dos Advogados
+            de Portugal. Sou formada, há mais de 20 anos, pela Universidade
+            Federal de Rio Grande (FURG) e tenho a felicidade de desfrutar de
+            todos os privilégios que um cidadão português tem no mundo.
           </p>
 
-          <ModalButton>
-            <p className="modal-text">
-              Olá! Meu nome é Andréia Amaral Sant'Anna e assim como você, eu
-              também busquei a minha nacionalidade portuguesa através dos meus
-              antepassados. Hoje, sou uma advogada brasileira e portuguesa,
-              formada, há mais de 20 anos, pela Universidade Federal de Rio
-              Grande (FURG) e tenho a felicidade de desfrutar de todos os
-              privilégios que um cidadão português tem no mundo.
-            </p>
-
-            <p className="modal-text">
-              Compreendo a importância de ter uma segunda nacionalidade, não só
-              pelo acesso a benefícios e oportunidades, mas também pela conexão
-              com a história e cultura do país de origem.
-            </p>
-
-            <p className="modal-text">
-              Por isso, estou empenhada em ajudar aqueles que desejam obter a
-              cidadania portuguesa, seja por vínculos sanguíneos, casamento ou
-              naturalização.{" "}
-            </p>
-
-            <p className="modal-text">
-              Além disso, também atuo na área de homologação de sentenças
-              estrangeiras, auxiliando aqueles que necessitam de reconhecimento
-              judicial de decisões tomadas em outros países. Ao longo da minha
-              jornada, aprendi que cada caso é único e que a obtenção da
-              cidadania portuguesa pode ser um processo complexo e demorado.{" "}
-            </p>
-
-            <p className="modal-text">
-              Por isso, estou aqui para auxiliar e orientar meus clientes em
-              todos os aspectos legais envolvidos, oferecendo um serviço
-              personalizado e eficiente. Para isso, estou sempre atualizada com
-              as leis e regulamentos em vigor, a fim de garantir que meus
-              clientes tenham o melhor resultado possível.
-            </p>
-          </ModalButton>
+          <p className="text">
+            Compreendo a importância de ter uma segunda nacionalidade, não só
+            pelo acesso a benefícios e oportunidades, mas também pela conexão
+            com a história e cultura do país de origem.
+          </p>
+          <p className="text">
+            Por isso, estou empenhada em ajudar aqueles que desejam obter a
+            cidadania portuguesa, seja por vínculos sanguíneos, casamento ou
+            naturalização.
+          </p>
         </TextImg>
 
         <TextImg imgSrc={"images/direito.jpg"}>
@@ -89,6 +61,13 @@ function App() {
             acompanhando cada caso particular com a maior atenção e dedicação.
           </p>
           <p className="text2">
+            Sendo advogada luso-brasileira, tenho conhecimento sobre as
+            particularidades de ambos os sistemas jurídicos, o que me permite
+            prestar um serviço completo e integrado para aqueles que buscam
+            adquirir a nacionalidade portuguesa ou homologar sentenças
+            estrangeiras em Portugal.
+          </p>
+          <p className="text2">
             Além da assessoria personalizada durante o processo de obtenção da
             nacionalidade portuguesa, posso te ajudar em diversos assuntos
             jurídicos relacionados a Portugal.
@@ -96,7 +75,7 @@ function App() {
 
           <ModalButton>
             <p className="modal-text">
-              Ofereço serviços jurídicos especializados em aquisição da
+              <FaCheck /> Serviços jurídicos especializados em aquisição da
               nacionalidade portuguesa em todos os níveis, ou seja, por
               atribuição (filhos, netos e bisnetos de portugueses) ou por
               aquisição, para inúmeros casos. São muitos os casos em que se pode
@@ -104,36 +83,29 @@ function App() {
             </p>
 
             <p className="modal-text">
-              Bem como, o trabalho de homologações de sentença estrangeira nos
-              tribunais portugueses. Com a minha experiência e conhecimento em
-              direito internacional, aplicado ao caso, busco garantir que meus
-              clientes tenham uma experiência tranquila e segura durante todo o
-              processo.
+              <FaCheck /> Homologações de sentença estrangeira nos tribunais
+              portugueses. Com a minha experiência e conhecimento em direito
+              internacional, aplicado ao caso, busco garantir que meus clientes
+              tenham uma experiência tranquila e segura durante todo o processo.
             </p>
 
             <p className="modal-text">
-              Meu trabalho consiste em oferecer uma assessoria personalizada,
-              desde a análise da documentação necessária até a finalização do
-              processo, com a aplicação direta, digital e instantânea, frente ao
-              Instituto de Registos e do Notariado (IRN) de Portugal.
-              Prerrogativa concedida aos advogados portugueses. Trabalho com um
-              serviço ágil e eficiente, sempre buscando a melhor solução para
-              cada caso específico.
+              <FaCheck /> Meu trabalho consiste em oferecer uma assessoria
+              personalizada, desde a análise da documentação necessária até a
+              finalização do processo, com a aplicação direta, digital e
+              instantânea, frente ao Instituto de Registos e do Notariado (IRN)
+              de Portugal, prerrogativa concedida aos advogados portugueses.
             </p>
-
             <p className="modal-text">
-              Além disso, como advogada portuguesa e brasileira, tenho
-              conhecimento sobre as particularidades de ambos os sistemas
-              jurídicos, o que me permite prestar um serviço completo e
-              integrado para aqueles que buscam adquirir a nacionalidade
-              portuguesa ou homologar sentenças estrangeiras em Portugal.
+              <FaCheck /> Trabalho com um serviço ágil e eficiente, sempre
+              buscando a melhor solução para cada caso específico.
             </p>
           </ModalButton>
         </TextImg>
 
         <TextImg imgSrc={"images/portugal1.jpg"} leftImg>
           <h1 className="label" id="vantagens">
-            Vantagens de Ser Cidadão Europeu
+            Vantagens de Ser Cidadão Português
           </h1>
 
           <p className="text3">
@@ -144,62 +116,134 @@ function App() {
             certamente será uma escolha vantajosa para sua vida pessoal e
             profissional.
           </p>
+          <p className="text3">
+            Adquirindo a sua nacionalidade portuguesa, você se torna um cidadão
+            europeu, e com isto você passa a ter inúmeras vantagens, além da
+            vantagem pura e simples de passar a nacionalidade aos seus
+            descendentes.{" "}
+          </p>
 
           <ModalButton>
             <p className="modal-text1">
-              Adquirindo a sua nacionalidade portuguesa, você se torna um
-              cidadão europeu, e com isto você passa a ter inúmeras vantagens,
-              além da vantagem pura e simples de passar a nacionalidade aos seus
-              descendentes. Algumas das principais vantagens de ser um cidadão
-              europeu incluem:
-              <li className="modal-text">
-                <strong> 1. Mobilidade:</strong> Como cidadão europeu, você tem
-                o direito de circular, residir,estudar e trabalhar livremente em
-                qualquer país da União Europeia (UE) e do Espaço Econômico
-                Europeu (EEE).
-              </li>
-              <li className="modal-text">
-                <strong>2. Emprego:</strong> Como cidadão europeu, você tem
-                acesso a todas as oportunidades de emprego e treinamento
-                oferecidas em qualquer país da UE ou do EEE, assim você pode
-                aproveitar as melhores oportunidades de emprego em qualquer país
-                europeu sem precisar de autorização de trabalho.
-              </li>
-              <li className="modal-text">
-                <strong>3. Educação:</strong> Como cidadão europeu, você tem
-                acesso a todas as instituições de ensino superior da UE e do EEE
-                com as mesmas taxas de matrícula e acesso aos benefícios de
-                estudante oferecidos aos cidadãos locais.
-              </li>
-              <li className="modal-text">
-                <strong>4. Qualidade de vida:</strong> Como cidadão europeu,
-                você tem acesso a alguns dos melhores serviços públicos do
-                mundo, incluindo saúde, assistência social e transporte público.
-                Além disso, você também tem direito à proteção consular e
-                assistência legal em qualquer país da UE ou do EEE.
-              </li>
-              <li className="modal-text">
-                <strong>5. Segurança:</strong> Como cidadão europeu, você pode
-                contar com a proteção dos direitos humanos e liberdades
-                fundamentais garantidos pela Carta dos Direitos Fundamentais da
-                UE. Além disso, você também tem o direito de recorrer à Justiça
-                Europeia em caso de violação desses direitos.
-              </li>
-              <li className="modal-text">
-                <strong>6. Direitos Políticos:</strong> Como cidadão europeu,
-                você tem o direito de votar e se candidatar às eleições para o
-                Parlamento Europeu e nas eleições municipais em qualquer país da
-                UE ou do EEE em que você reside.
-              </li>
-              <li className="modal-text">
-                <strong>
-                  7. Você pode entrar sem visto em mais de 170 países, incluindo
-                  Estados Unidos, Canadá e Japão.
-                </strong>
-              </li>
+              Algumas das principais vantagens de ser um cidadão europeu
+              incluem:
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <strong>
+                    <FaCheck /> Mobilidade:
+                  </strong>{" "}
+                  Como cidadão europeu, você tem o direito de circular, residir,
+                  estudar e trabalhar livremente em qualquer país da União
+                  Europeia (UE) e do Espaço Econômico Europeu (EEE).
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <strong>
+                    <FaCheck /> Emprego:
+                  </strong>{" "}
+                  Como cidadão europeu, você tem acesso a todas as oportunidades
+                  de emprego e treinamento oferecidas em qualquer país da UE ou
+                  do EEE, assim você pode aproveitar as melhores oportunidades
+                  de emprego em qualquer país europeu sem precisar de
+                  autorização de trabalho.
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <FaCheck />
+                  <strong> Educação:</strong> Como cidadão europeu, você tem
+                  acesso a todas as instituições de ensino superior da UE e do
+                  EEE com as mesmas taxas de matrícula e acesso aos benefícios
+                  de estudante oferecidos aos cidadãos locais.
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <FaCheck />
+                  <strong> Qualidade de vida:</strong> Como cidadão europeu,
+                  você tem acesso a alguns dos melhores serviços públicos do
+                  mundo, incluindo saúde, assistência social e transporte
+                  público. Além disso, você também tem direito à proteção
+                  consular e assistência legal em qualquer país da UE ou do EEE.
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <FaCheck />
+                  <strong> Segurança:</strong> Como cidadão europeu, você pode
+                  contar com a proteção dos direitos humanos e liberdades
+                  fundamentais garantidos pela Carta dos Direitos Fundamentais
+                  da UE. Além disso, você também tem o direito de recorrer à
+                  Justiça Europeia em caso de violação desses direitos
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <FaCheck />
+                  <strong> Direitos Políticos:</strong> Como cidadão europeu,
+                  você tem o direito de votar e se candidatar às eleições para o
+                  Parlamento Europeu e nas eleições municipais em qualquer país
+                  da UE ou do EEE em que você reside.
+                </li>
+              </div>
+              <div className="vantagens-icones">
+                <li className="modal-text">
+                  <FaCheck />
+                  <strong>
+                    {" "}
+                    Você pode entrar sem visto em mais de 170 países, incluindo
+                    Estados Unidos, Canadá e Japão.
+                  </strong>
+                </li>
+              </div>
             </p>
           </ModalButton>
         </TextImg>
+
+        <TextImg imgSrc={"images/cotidianoporto.jpg"}>
+          <div className="depoimentos">
+            <p className="depoimento1">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit vel qui ipsa voluptatibus est recusandae amet minima
+              distinctio, iusto optio ipsam blanditiis repellat natus aliquid,
+              ratione quibusdam ullam magni impedit.
+            </p>
+            <div className="icone-separacao">
+              <FaGlobe />
+            </div>
+            <p className="depoimento1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
+              omnis quam ipsum facere cupiditate, inventore laborum molestiae
+              aspernatur maiores soluta.
+            </p>
+            <div className="icone-separacao">
+              <FaGlobe />
+            </div>
+
+            <p className="depoimento1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
+              omnis quam ipsum facere cupiditate, inventore laborum molestiae
+              aspernatur maiores soluta.
+            </p>
+          </div>
+        </TextImg>
+        <TextImg imgSrc={"images/cotidianolisboa.jpg"} leftImg>
+          <div className="depoimentos">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
+              omnis quam ipsum facere cupiditate, inventore laborum molestiae
+              aspernatur maiores soluta.
+            </p>
+            <div className="icone-separacao">
+              <FaGlobe />
+            </div>
+          </div>
+        </TextImg>
+
         <TextImg imgSrc={"images/bandeirapt.jpg"}>
           <h1 className="label" id="contato">
             Contato

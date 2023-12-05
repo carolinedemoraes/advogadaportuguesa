@@ -1,15 +1,16 @@
 @use './variables'
 
+@media screen and (min-width: 600px)
+    .full-width-img
+        margin: auto
+        width: 90%
+
 body
     padding: 45px
     background: variables.$body-bg-color
     margin: 20px
     display: flex
     text-align: center
-
-@media screen and (min-width: 800px)
-    .content
-        width: 100%
 
 h1
     color: variables.$text-color
@@ -45,7 +46,7 @@ h1,h2, p
     margin: 30px
 
 .title
-    font-size: 80px
+    font-size: 60px
     font-weight: bolder
     text-align: center
 
@@ -61,13 +62,20 @@ h1,h2, p
 
 .slogan
     color: variables.$text-color
-    font-size: 25px
+    font-size: 20px
 
 .label
     text-align: center
     line-height: 1.2
     font-size: 46px
     padding-top: 15px
+
+.depoimentos
+    text-align: center
+    font-size: 22px
+    font: variables.$font-stack-secundary
+    color: variables.$text-color-secondary
+    font-style: italic
 
 .text
     text-align: center
@@ -77,13 +85,13 @@ h1,h2, p
 .text2
     text-align: center
     font-size: 28px
-    line-height: 1.7
+    line-height: 1.2
     font-weight: normal
 
 .text3
     text-align: center
     font-size: 28px
-    line-height: 1.7
+    line-height: 1.2
     font-weight: normal
     margin-top: 60px
 

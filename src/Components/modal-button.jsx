@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Modal from "./modal";
+import Modal from "./closemodal";
 import "../styles/Components/modal-button.sass";
 
 const ModalButton = ({ children }) => {
