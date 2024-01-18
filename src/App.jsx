@@ -20,12 +20,12 @@ function App() {
   return (
     <>
       <div className="content">
-        <TextImg imgSrc={"images/advogadapt.jpg"}>
+        <TextImg imgSrc={"imgs/advlusobrasileira.jpg"}>
           <Menu />
           <Title />
         </TextImg>
 
-        <TextImg imgSrc={"images/passaporte.jpg"} leftImg>
+        <TextImg imgSrc={"imgs/passaporteportugues.jpg"} leftImg>
           <h1 className="label" id="minha-historia">
             Minha História
           </h1>
@@ -51,7 +51,7 @@ function App() {
           </p>
         </TextImg>
 
-        <TextImg imgSrc={"images/direito.jpg"}>
+        <TextImg imgSrc={"imgs/simbolodireito.jpg"}>
           <h1 className="label" id="meus-servicos">
             Meus Serviços
           </h1>
@@ -103,7 +103,7 @@ function App() {
           </ModalButton>
         </TextImg>
 
-        <TextImg imgSrc={"images/portugal1.jpg"} leftImg>
+        <TextImg imgSrc={"imgs/PT1.jpg"} leftImg>
           <h1 className="label" id="vantagens">
             Vantagens de Ser Cidadão Português
           </h1>
@@ -201,50 +201,50 @@ function App() {
           </ModalButton>
         </TextImg>
 
-        <TextImg imgSrc={"images/cotidianoporto.jpg"}>
+        <TextImg imgSrc={"imgs/Porto.jpg"}>
           <div className="depoimentos">
             <p className="depoimento1">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit vel qui ipsa voluptatibus est recusandae amet minima
-              distinctio, iusto optio ipsam blanditiis repellat natus aliquid,
-              ratione quibusdam ullam magni impedit.
+              ✨ 'A obtenção da nacionalidade portuguesa, na qualidade de neta
+              de português, mudou a minha vida e a da minha família. Depois que
+              eu me tornei uma cidadã portuguesa minhas filhas e meus netos
+              conseguiram a cidadania, o que proporcionou a possibilidade de
+              morar, estudar, ou trabalhar tanto em Portugal como em algum pais
+              da União Europeia.' (Leonor Sant'Anna, cidadã luso-brasileira)✨
             </p>
             <div className="icone-separacao">
               <FaGlobe />
             </div>
             <p className="depoimento1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
-              omnis quam ipsum facere cupiditate, inventore laborum molestiae
-              aspernatur maiores soluta.
+              ✨ 'Obter a cidadania luso-brasileira me permitiu realizar o sonho
+              de morar fora do Brasil com conforto e segurança, me permitiu
+              viver plenamente em Portugal e viver uma vida acessível em um país
+              com qualidade de vida e dignidade. Já estou morando morando em
+              Portugal e descobri um novo mundo, muitas novas possibilidades e
+              muitas diferenças positivas no meu cotidiano.' (André Pantaleão,
+              cidadão luso-brasileiro) ✨
             </p>
             <div className="icone-separacao">
               <FaGlobe />
             </div>
-
             <p className="depoimento1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
-              omnis quam ipsum facere cupiditate, inventore laborum molestiae
-              aspernatur maiores soluta.
+              ✨ 'A cidadania luso-brasileira me possibilitou ter uma chance de
+              um futuro melhor, poder crescer com mais confiança e viajar para
+              muitos lugares.' (Alice Menezes, 11 anos, cidadã luso-brasileira)
+              ✨
             </p>
           </div>
         </TextImg>
-        <TextImg imgSrc={"images/cotidianolisboa.jpg"} leftImg>
+
+        {/* <TextImg imgSrc={"imgs/PT2.jpg"} leftImg>
           <div className="depoimentos">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              expedita voluptatem nisi dicta ut quas possimus explicabo ab hic
-              omnis quam ipsum facere cupiditate, inventore laborum molestiae
-              aspernatur maiores soluta.
-            </p>
+            <p className="depoimento1"></p>
             <div className="icone-separacao">
               <FaGlobe />
             </div>
           </div>
-        </TextImg>
+        </TextImg>  */}
 
-        <TextImg imgSrc={"images/bandeirapt.jpg"}>
+        <TextImg imgSrc={"imgs/bandeiraportugal.jpg"} leftImg>
           <h1 className="label" id="contato">
             Contato
           </h1>

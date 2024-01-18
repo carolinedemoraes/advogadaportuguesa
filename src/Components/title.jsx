@@ -8,10 +8,10 @@ function Title() {
       <div className="title-content">
         <h1 className="title">CIDADANIA LUSO-BRASILEIRA</h1>
         <h2 className="subtitle">ANDRÉIA SANT'ANNA</h2>
-        <h2 className="undertitle">Advogada luso-brasileira</h2>
-        <h2 className="undertitle">
+        <p className="undertitle">Advogada Luso-brasileira</p>
+        <p className="undertitle">
           Especialista em cidadania portuguesa e assuntos jurídicos portugueses
-        </h2>
+        </p>
 
         <a
           href="https://www.instagram.com/cidadanialusitana/"
@@ -30,7 +30,7 @@ function Title() {
         </a>
 
         <p className="slogan">
-          Eu posso te ajudar a realizar o sonho português 🇵🇹
+          Eu posso te ajudar a realizar o sonho português 🇵🇹✨
         </p>
       </div>
     </>
