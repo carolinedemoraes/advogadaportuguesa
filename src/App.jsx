@@ -6,9 +6,7 @@ import TextImg from "./Components/textimg";
 import Menu from "../src/Components/menu";
 import Modal from "./Components/closemodal";
 
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import SocialNetwork from "./Components/social-network";
 import { FaGlobe } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
 
@@ -20,12 +18,12 @@ function App() {
   return (
     <>
       <div className="content">
-        <TextImg imgSrc={"imgs/advlusobrasileira.jpg"}>
+        <TextImg imgSrc={"imgs/fotoprincipal.jpg"}>
           <Menu />
           <Title />
         </TextImg>
 
-        <TextImg imgSrc={"imgs/passaporteportugues.jpg"} leftImg>
+        <TextImg imgSrc={"imgs/advlusobrasileira.jpg"} leftImg>
           <h1 className="label" id="minha-historia">
             Minha História
           </h1>
@@ -51,7 +49,7 @@ function App() {
           </p>
         </TextImg>
 
-        <TextImg imgSrc={"imgs/simbolodireito.jpg"}>
+        <TextImg imgSrc={"imgs/justicesymbol1.jpg"}>
           <h1 className="label" id="meus-servicos">
             Meus Serviços
           </h1>
@@ -103,12 +101,166 @@ function App() {
           </ModalButton>
         </TextImg>
 
-        <TextImg imgSrc={"imgs/PT1.jpg"} leftImg>
+        <TextImg imgSrc={"imgs/lisbon.jpg"} leftImg>
+          <h1 className="label" id="quem-pode">
+            Quem pode ter nacionalidade Portuguesa
+          </h1>
+          <p className="text">Você pode ter nacionalidade portuguesa se: </p>
+          <p className="text4">
+            <FaCheck />
+            Nascer em Portugal com pais de nacionalidade portuguesa
+          </p>
+          <p className="text4">
+            <FaCheck />
+            Nascer em Portugal com pais estrangeiros
+          </p>
+          <p className="text4">
+            <FaCheck />
+            Nascer no estrangeiro com pais de nacionalidade portuguesa
+          </p>
+          <p className="text4">
+            <FaCheck />
+            Casar com português
+          </p>
+          <p className="text4">
+            <FaCheck />
+            Residir legalmente em Portugal há pelo menos 5 anos
+          </p>
+          <p className="text4">
+            <FaCheck />
+            For cidadão timorense.
+          </p>
+          <p>
+            Existem ainda outros casos em que é possível adquirir ou readquirir
+            a nacionalidade portuguesa.
+          </p>
+        </TextImg>
+
+        <TextImg imgSrc={"imgs/online4.jpg"}>
+          <h1 className="label" id="servicos-online">
+            Serviço online de Nacionalidade
+          </h1>
+          <p className="text5">
+            Este serviço destina-se exclusivamente a profissionais (advogados e
+            solicitadores). A partir de{" "}
+            <a
+              className="modal-text"
+              href="https://data.dre.pt/eli/port/344/2023/11/10/p/dre/pt/html"
+            >
+              {" "}
+              1 de dezembro de 2023
+            </a>{" "}
+            passa a ser obrigatória a submissão online de pedidos de
+            nacionalidade por advogados e solicitadores.
+          </p>
+          <p className="text5">
+            Podem utilizar o serviço online da nacionalidade os advogados e
+            solicitadores, inscritos nas respetivas Ordens em Portugal, que
+            representam cidadãos no pedido de nacionalidade portuguesa por via
+            de situações pontuais.
+          </p>
+
+          <ModalButton>
+            <p className="modal-text">
+              <FaCheck /> Nascido/a no estrangeiro, filho/a de mãe/pai português
+              à data do nascimento (por transcrição)
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Neto/a de avó/avô português originário e possuir laços
+              de efetiva ligação à comunidade nacional
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Menor ou incapaz, cuja mãe/pai tenha adquirido a
+              nacionalidade portuguesa, depois do seu nascimento
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Casado/a há mais de três anos com nacional português
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Unido/a de facto há mais de três anos com nacional
+              português
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Perdeu a nacionalidade portuguesa por efeito de
+              declaração prestada durante a sua incapacidade
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Adotado/a por nacional português, após a data da
+              entrada em vigor da Lei da Nacionalidade
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Adotado/a por nacional português, antes da data da
+              entrada em vigor da Lei da Nacionalidade
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Residente legal em território português há, pelo
+              menos, cinco anos Menor, cuja mãe/pai tem residência em Portugal,
+              independentemente de título, há pelo menos cinco anos
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Menor, cuja mãe/pai tem residência legal em Portugal
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Menor que frequenta ou frequentou em Portugal, pelo
+              menos, um ano escolar
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Teve a nacionalidade portuguesa e, tendo-a perdido,
+              nunca adquiriu outra nacionalidade
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Nasceu em Portugal e aqui tem residência,
+              independentemente de título, há pelo menos cinco anos
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Não sendo apátrida, já teve anteriormente a
+              nacionalidade portuguesa
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Descendente de português originário
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Membro de comunidade de ascendência portuguesa Presta
+              ou prestou serviços relevantes ao Estado Português ou à comunidade
+              nacional
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Descendente de judeu sefardita português
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Ascendente de cidadão português originário
+              Estrangeiro/a, nascido/a nas ex-colónias, que permanece,
+              independentemente do título, em Portugal desde 25 de abril de 1974
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Descendente de estrangeiro/a, nascido/a nas
+              ex-colónias, que permaneceu, independentemente do título, em
+              Portugal desde 25 de abril de 1974
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Perda da nacionalidade portuguesa
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Perdeu a nacionalidade portuguesa por efeito do
+              casamento com estrangeiro{" "}
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Perdeu a nacionalidade portuguesa por efeito da
+              aquisição voluntária de nacionalidade estrangeira
+            </p>
+            <p className="modal-text">
+              <FaCheck /> Mulher que casou com nacional português, nos termos da
+              Lei n.º 2098.
+            </p>
+          </ModalButton>
+        </TextImg>
+
+        <TextImg imgSrc={"imgs/PT2.jpg"} leftImg>
           <h1 className="label" id="vantagens">
             Vantagens de Ser Cidadão Português
           </h1>
 
-          <p className="text3">
+          <p className="text7">
             Como cidadão da União Europeia, você pode desfrutar de uma série de
             benefícios e oportunidades que não estão disponíveis para cidadãos
             de outros países. Portanto, se você tiver a oportunidade de se
@@ -116,11 +268,11 @@ function App() {
             certamente será uma escolha vantajosa para sua vida pessoal e
             profissional.
           </p>
-          <p className="text3">
+          <p className="text7">
             Adquirindo a sua nacionalidade portuguesa, você se torna um cidadão
             europeu, e com isto você passa a ter inúmeras vantagens, além da
             vantagem pura e simples de passar a nacionalidade aos seus
-            descendentes.{" "}
+            descendentes.
           </p>
 
           <ModalButton>
@@ -131,7 +283,7 @@ function App() {
                 <li className="modal-text">
                   <strong>
                     <FaCheck /> Mobilidade:
-                  </strong>{" "}
+                  </strong>
                   Como cidadão europeu, você tem o direito de circular, residir,
                   estudar e trabalhar livremente em qualquer país da União
                   Europeia (UE) e do Espaço Econômico Europeu (EEE).
@@ -141,7 +293,7 @@ function App() {
                 <li className="modal-text">
                   <strong>
                     <FaCheck /> Emprego:
-                  </strong>{" "}
+                  </strong>
                   Como cidadão europeu, você tem acesso a todas as oportunidades
                   de emprego e treinamento oferecidas em qualquer país da UE ou
                   do EEE, assim você pode aproveitar as melhores oportunidades
@@ -202,7 +354,7 @@ function App() {
         </TextImg>
 
         <TextImg imgSrc={"imgs/Porto.jpg"}>
-          <div className="depoimentos">
+          <div className="depoimentos" id="depoimentos">
             <p className="depoimento1">
               ✨ 'A obtenção da nacionalidade portuguesa, na qualidade de neta
               de português, mudou a minha vida e a da minha família. Depois que
@@ -248,34 +400,21 @@ function App() {
           <h1 className="label" id="contato">
             Contato
           </h1>
-          <p className="text4">
+          <p className="text8">
             Se você está em busca de uma advogada portuguesa comprometida em
             obter a sua cidadania portuguesa, estou à disposição para ajudá-lo
             (a) nessa jornada!
           </p>
-          <p className="text4">
+          <p className="text8">
             <strong>Ser cidadão europeu é possível!</strong> Conte com a minha
             experiência e conhecimento para garantir que todo o processo seja
             realizado de forma segura e tranquila.
           </p>
-          <p className="text4">
+          <p className="text8">
             <strong>Entre em contato:</strong>
           </p>
-          <a
-            href="https://www.instagram.com/cidadanialusitana/"
-            className="social-network"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://api.whatsapp.com/send?phone=5553999652013 "
-            className="social-network"
-          >
-            <FaWhatsapp />
-          </a>
-          <a href="mailto:andreia-66927p@adv.oa.pt" className="social-network">
-            <FaEnvelope />
-          </a>
+
+          <SocialNetwork />
         </TextImg>
       </div>
       <footer className="footer">
