@@ -283,7 +283,7 @@ function App() {
                 <li className="modal-text">
                   <strong>
                     <FaCheck /> Mobilidade:
-                  </strong>
+                  </strong>{" "}
                   Como cidadão europeu, você tem o direito de circular, residir,
                   estudar e trabalhar livremente em qualquer país da União
                   Europeia (UE) e do Espaço Econômico Europeu (EEE).
@@ -293,7 +293,7 @@ function App() {
                 <li className="modal-text">
                   <strong>
                     <FaCheck /> Emprego:
-                  </strong>
+                  </strong>{" "}
                   Como cidadão europeu, você tem acesso a todas as oportunidades
                   de emprego e treinamento oferecidas em qualquer país da UE ou
                   do EEE, assim você pode aproveitar as melhores oportunidades

@@ -1,10 +1,4 @@
 @use './variables'
-
-@media  (min-width: 568px)
-    .body
-        margin: auto
-        width: 80%
-
 body
     padding: 45px
     background: variables.$body-bg-color
@@ -127,3 +121,8 @@ h1,h2, p
     font-family: variables.$font-stack
     color: variables.$font-stack
     font-size: 10px
+
+@media (max-width: 768px)
+    body
+        margin: auto
+        width: 100%
