@@ -124,7 +124,7 @@ function App() {
               Nascer no estrangeiro com pais de nacionalidade portuguesa;
             </li>
 
-            <li className="quem-pode">Neto (a) de cidadão protuguês; </li>
+            <li className="quem-pode">Neto (a) de cidadão português; </li>
 
             <li className="quem-pode">
               Casado com cidadão com português há mais de 3 anos;
