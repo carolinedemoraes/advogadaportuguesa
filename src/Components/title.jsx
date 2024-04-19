@@ -6,7 +6,7 @@ function Title() {
       <div className="title-content">
         <h1 className="title">CIDADANIA LUSITANA</h1>
         <h2 className="subtitle">ANDRÉIA SANT'ANNA</h2>
-        <p className="undertitle">Advogada Lusitana</p>
+        <p className="undertitle">Advogada Portuguesa e Brasileira</p>
         <p className="undertitle">
           Especialista em cidadania portuguesa e assuntos jurídicos portugueses
         </p>

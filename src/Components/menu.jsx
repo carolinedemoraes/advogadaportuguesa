@@ -16,11 +16,12 @@ function Menu() {
             <a href="#servicos-online">Serviços Online</a>
           </li>
           <li className="menu">
-            <a href="#depoimentos">Depoimentos</a>
-          </li>
-          <li className="menu">
             <a href="#vantagens">Vantagens da Cidadania Portuguesa</a>
           </li>
+          <li className="menu">
+            <a href="#depoimentos">Depoimentos</a>
+          </li>
+
           <li className="menu">
             <a href="#contato">Contato</a>
           </li>
