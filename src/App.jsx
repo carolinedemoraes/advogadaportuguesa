@@ -134,9 +134,9 @@ function App() {
               Residir legalmente em Portugal há mais de 5 anos;
             </li>
 
-            <li className="quem-pode">Ser cidadão timorense;</li>
+            <li className="quem-pode">Cidadão timorense;</li>
 
-            <li className="quem-pode">Descendente de Judeu Sefardita;</li>
+            <li className="quem-pode">Descendente de Judeu Sefardita</li>
           </ol>
 
           <p>
