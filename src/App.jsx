@@ -63,7 +63,7 @@ function App() {
             particularidades de ambos os sistemas jurídicos, o que me permite
             prestar um serviço completo e integrado para aqueles que buscam
             adquirir a nacionalidade portuguesa ou homologar sentenças
-            estrangeiras,do seu divórcio brasileiro, em Portugal. O que
+            estrangeiras, do seu divórcio brasileiro, em Portugal. O que
             possibilita a aquisição da nacionalidade portuguesa de cônjuges do
             segundo casamento em diante.
           </p>
@@ -150,12 +150,12 @@ function App() {
                 Hoje em dia, com a promulgação da nova legislação, a Lei
                 Orgânica nº 1/2024, que altera a Lei da Nacionalidade Portuguesa
                 a descendente de judeus sefardita, estão agora habilitados a
-                solicitar a nacionalidade portuguesa,desde que satisfaçam um
+                solicitar a nacionalidade portuguesa, desde que satisfaçam um
                 conjunto de requisitos cumulativos meticulosamente delineados:
               </p>
 
               <p>
-                1. Evidência de Continuidade Cultural Requer-se a demonstração
+                1. Evidência de Continuidade Cultural: Requer-se a demonstração
                 inequívoca de pertença contínua a uma comunidade sefardita de
                 ascendência portuguesa. Tal demonstração deve ser ancorada em
                 critérios objetivos e verificáveis de conexão com Portugal,
@@ -184,7 +184,7 @@ function App() {
               </p>
             </p>
             <a href="https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2024-854130977">
-              Acesse aqui a Lei Orgânica atualizada na integra
+              ACESSE AQUI A LEI ORGÂNICA ATUALIZADA NA INTEGRA
             </a>
           </ModalButton>
         </TextImg>
@@ -201,7 +201,7 @@ function App() {
               e solicitadores) filiados a OA de Portugal.{" "}
             </p>
             <p className="nacionalidade-online">
-              A partir de 1 de dezembro de 2023 passa a ser obrigatória a
+              A partir de 1º de dezembro de 2023 passa a ser obrigatória a
               submissão online de pedidos de nacionalidade por advogados e
               solicitadores, filiados a Ordem dos Advogados de Portugal, para
               todos os casos de pedidos de nacionalidade portuguesa.
